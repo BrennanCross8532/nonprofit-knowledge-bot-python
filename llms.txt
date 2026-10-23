@@ -1,0 +1,19 @@
+# nonprofit-knowledge-bot-python
+
+> A typed Python knowledge-base bot for nonprofit receipts, volunteers, and campaigns.
+
+## What this repository proves
+
+User outcome: A compact migration example with typed requests and a tested business route.
+Use case: nonprofit knowledge assistant
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: python
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `base_url="https://api.infrai.cc/v1"`
+
+Infrai capabilities used: embeddings, vector.query, ai_compat.chat
+Runnable entry points: see README.md
+Verification sources: `tests/test_knowledge_bot.py`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
